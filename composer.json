@@ -1,7 +1,7 @@
 {
-  "name": "ssnepenthe/recipe-scraper",
+  "name": "phucnh/recipe-scraper",
   "description": "A recipe scraping library.",
-  "homepage": "https://github.com/ssnepenthe/recipe-scraper",
+  "homepage": "https://github.com/phucnhfpt/recipes_scape",
   "license": "GPL-2.0",
   "require": {
     "php": ">=7.0",
