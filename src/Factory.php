@@ -13,7 +13,6 @@ class Factory
      * @var array<string, Scrapers\ScraperInterface|null>
      */
     protected static $scrapers = [
-        Scrapers\WwwFoodnetworkCom::class => null,
         Scrapers\CookieAndKateCom::class => null,
         Scrapers\EmerilsCom::class => null,
         Scrapers\GeneralMills::class => null,
@@ -24,7 +23,6 @@ class Factory
         Scrapers\ThePioneerWomanCom::class => null,
         Scrapers\TimeInc::class => null,
         Scrapers\WwwAllRecipesCom::class => null,
-        Scrapers\WwwFoodCom::class => null,
         Scrapers\WwwBhgCom::class => null,
         Scrapers\WwwBonAppetitCom::class => null,
         Scrapers\WwwEatingWellCom::class => null,
