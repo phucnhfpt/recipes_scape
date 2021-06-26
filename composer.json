@@ -1,0 +1,22 @@
+{
+  "name": "ssnepenthe/recipe-scraper",
+  "description": "A recipe scraping library.",
+  "homepage": "https://github.com/ssnepenthe/recipe-scraper",
+  "license": "GPL-2.0",
+  "require": {
+    "php": ">=7.0",
+    "danielstjules/stringy": "^2.0|^3.0",
+    "symfony/css-selector": "^3.0|^4.0|^5.0",
+    "symfony/dom-crawler": "^3.1|^4.0"
+  },
+  "require-dev": {
+    "psy/psysh": "^0.8",
+    "symfony/console": "^3.0|^4.0"
+  },
+  "autoload": {
+    "psr-4": { "RecipeScraper\\": "src/" }
+  },
+  "autoload-dev": {
+    "psr-4": { "RecipeScraperTests\\": "tests/" }
+  }
+}
