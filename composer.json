@@ -13,6 +13,7 @@
     "psy/psysh": "^0.8",
     "symfony/console": "^3.0|^4.0"
   },
+  "minimum-stability": "dev",
   "autoload": {
     "psr-4": { "RecipeScraper\\": "src/" }
   },
